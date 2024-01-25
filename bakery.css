@@ -1,0 +1,123 @@
+body{
+    background-color: #FFFFFF;
+    color: #FFFFFF;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header {
+    background-color: #CC9966;
+    line-height: 450%;
+   text-align: center;
+}
+nav{
+    float: left;
+    width: 170px;
+    padding: 0px;
+    font-weight: bold;
+    line-height: 200%;
+}
+nav ul{
+    list-style: none;
+    
+}
+nav a {
+    display: block;
+    color: #FFFFFF;
+    text-decoration: none;
+    transition: color 2s linear;
+}
+nav a:hover{
+    color: #FFEA00;
+}
+
+h1 {
+    margin-bottom: 0;
+    font-family: Georgia, 'Times New Roman', serif;
+}
+h2 {
+    font-family: Georgia, 'Times New Roman', serif;
+    color: #003300;
+}
+h3{
+    font-family: Georgia, 'Times New Roman', serif;
+    color: #003300;
+}
+ul{
+    list-style-image: url(Images/cookieFixed.jpg);
+}
+main{
+    margin-left: 180px;
+    padding: 10px;
+    background-color: #99CCCC;
+}
+div{
+    margin-left: 180px;
+    padding-right: 0px;
+    background-color: #99CCCC;
+}
+footer {
+    margin-left: 180px;
+    background-color: #99CCCC;
+    font-size: 75%;
+    font-family: Georgia, 'Times New Roman', serif;
+    font-style: italic;
+    text-align: center;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    height: auto;
+}
+#wrapper{
+    width: 80%;
+    min-width: 960px;
+    max-width: 2048px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 3px 3px 3px #333333;
+    background-color: #003300;
+    border-width: 1px;
+    border-color: #000033;
+    background-image: linear-gradient(to top, #93C572, #003300);
+}
+table{
+    border: 2px solid #003300;
+    border-collapse: collapse;
+    width: 75%;
+    margin: auto;
+}
+table td, th{
+    padding:.5em;
+    border: 2px solid #003300;
+}
+table td{
+    text-align: center;
+}
+tr:nth-of-type(odd) {
+    background-color: #93C572;
+}
+form{
+    background-color: #93C572;
+    padding: 20px;
+    width: 200px;
+}
+label{
+    float: left;
+    text-align: right;
+}
+input{
+    display: block;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+textarea{
+    display: block;
+    margin-bottom: 20px;
+}
+input[type="submit"]{
+    margin-left: 120px;
+}
+.text{
+    text-align: center;
+}
